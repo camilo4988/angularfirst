@@ -1,0 +1,19 @@
+<p>if-comp works!</p>
+@if (username.length<=6) {
+
+
+<h2>{{username}}</h2>
+<h3>el numero de caracteres es menor a 6</h3>
+}
+@else{
+  <h4>El tamaño del nombre ha sido superado, borre caracteres, maximo 6</h4>
+<ul>
+    <li>este</li>
+    <li>berraco</li>
+    <li>coso</li>
+    <li>no</li>
+    <li>funciona</li>
+</ul>
+}
+<h4>{{username}}</h4>
+<input type="text" [(ngModel)]="username">

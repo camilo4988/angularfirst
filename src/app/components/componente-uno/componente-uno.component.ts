@@ -7,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrl: './componente-uno.component.css'
 })
 export class ComponenteUnoComponent {
-
+nombreusuario:string='Canuki';
+condicion: string=this.nombreusuario;
 }
